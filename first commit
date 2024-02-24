@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="parent">
+
+        <header>
+
+            <div class="navbar" style="width: 100%;">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary" style="width: 100%;">
+                    <div class="container-fluid d-flex justify-content-between">
+
+                        <div class="brand-logo">
+
+                            <a class="navbar-brand" href="https://www.paypal.com/pk/home"><img
+                                    src="./images/paypal icon.png" alt=""></a>
+
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <div class="navbar-items ">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#">
+                                            Dropdown
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Personnel
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Business
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Enterprise
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Developer</a>
+                                    </li>
+
+
+                            </div>
+                        </div>
+
+                        <div class="navbar-btn d-flex justify-content-around gap-4 align-items-center">
+                            <a href=""
+                                style="padding: 05px 10px; text-decoration: none; color: black; font-size: 22px;">Help</a>
+                            <button class="login-btn">Log In</button>
+                            <button type="button" class="signup-btn btn btn-primary btn-lg">Sign Up</button>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <div class="parent-body">
+
+
+            <section class="section1 ">
+                <div class="heading">
+                    <h1>The New PayPal</h1>
+                    <h1>app is here</h1>
+                </div><br>
+                <a href="" style="color: rgb(58, 150, 224); font-size: 15px;">Learn more about the new features <img
+                        src="./images/right-arrow-removebg-preview.png" alt=""></a>
+
+                <div class="section1-subcontent position-relative d-flex align-items-end">
+
+                    <div class="section1-subcontent1">
+
+                        <h3 style="color: white; font-size: 20px;">Scan the code or enter your number to get the app.
+                        </h3><br><br>
+
+                        <div class="d-flex justify-content-between gap-5 section1-QR-phone-number">
+                            <div class="QR-code">
+                                <img src="./images/QR code.svg" alt="">
+                            </div>
+
+                            <div class="d-flex flex-column gap-3">
+                                <div class="custom-input input-group flex-nowrap">
+                                    <span class="input-group-text">@</span>
+                                    <input type="text" class="form-control" placeholder="Phone Number"
+                                        aria-label="Username" aria-describedby="addon-wrapping">
+                                </div>
+
+                                <div class="btn-sendlink">
+                                    <button>Send Link</button>
+                                </div>
+                                <div>
+                                    <p style="color: white; font-size: small;">By clicking Send Link you agree to
+                                        receive a text message with a link to the
+                                        PayPal app. Message and data rates may apply.</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="section1-subcontent2" style="position: relative;">
+                        <img src="./images/device-hero.png" alt="">
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="section2">
+
+                <div class="d-flex justify-content-center align-items-center">
+
+                    <h4>Need to connect PayPal with your online store? <span><a href="">Sign up for business
+                                account</a></span></h4>
+                </div>
+            </section>
+
+            <section class="section3">
+
+                <div class="section2-subcontent d-flex align-items-center">
+
+                    <div class="section2-subcontent1">
+                        <img src="./images/BNPL-img.jpg" alt="">
+                    </div>
+                    <div class="section2-subcontent2">
+                        <h3>Buy now, pay later with Pay in 4</h3>
+                        <p>Want something now but the sale ends before payday? Choose Pay in 4 at checkout with millions
+                            of online stores and split the cost into 4 interest-free payments.</p>
+                        <a href="">Learn how to pay in 4</a>
+                    </div>
+                </div>
+
+                <div class="section2-subcontent d-flex align-items-center">
+
+                    <div class="section2-subcontent2">
+                        <h3>Check out with crypto</h3>
+                        <p style="font-weight: bold;">Access a new way to pay. Sign up for an account and spend crypto
+                            at millions of online stores
+                            with PayPal.</p>
+                        <p style="font-size: small;">Checking out with crypto is a taxable transaction. Fees and
+                            exchange rates will apply. Buying
+                            and selling cryptocurrency is subject to a number of risks and PayPal does not make any
+                            recommendations. Consult your tax advisor. Merchants are paid in fiat currency.</p>
+                        <a href="">Learn how to pay in 4</a>
+                    </div>
+                    <div class="section2-subcontent1">
+                        <img src="./images/crypto-img.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="section2-subcontent d-flex align-items-center">
+
+                    <div class="section2-subcontent1">
+                        <img src="./images/touchfree-img.jpg" alt="">
+                    </div>
+                    <div class="section2-subcontent2">
+                        <h3>Touch-free payments</h3>
+                        <p>Leave the cash and cards at home. When it comes to paying with the app, the only thing you’ll
+                            need to reach for is your phone.</p>
+                        <a href="">Learn more about Paypal QR codes</a>
+                    </div>
+                </div>
+
+                <div class="section2-subcontent d-flex align-items-center">
+
+                    <div class="section2-subcontent2">
+                        <h3>Express yourself when you send money</h3>
+                        <p>Explore creative ways to split the bill or send money with a
+                            friendly message, colorful theme, GIFs, and more.1</p>
+                        <a href="">Send money now</a>
+                    </div>
+                    <div class="section2-subcontent1">
+                        <img src="./images/sendmoney-img.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="section2-subcontent d-flex align-items-center">
+
+                    <div class="section2-subcontent1">
+                        <img src="./images/give-img.jpg" alt="">
+                    </div>
+                    <div class="section2-subcontent2">
+                        <h3>Give with PayPal</h3>
+                        <p>Make a difference by supporting causes and fundraisers close to home and heart.</p>
+                        <a href="">Give through the app</a>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="section4">
+
+                <div class="d-flex justify-content-center align-items-center">
+
+                    <div class="section4-heading">
+
+                        <h1>Check out with millions of brands you love</h1>
+                    </div>
+
+                    <div class="company-links">
+
+                        <div class="company-link1 d-flex">
+
+                            <img src="./images/hulu-logo.jpg" alt="">
+                            <img src="./images/grubhub-logo.jpg" alt="">
+                            <img src="./images/potterybarn-logo.jpg" alt="">
+                        </div>
+                        <div class="company-link2 d-flex">
+
+                            <img src="./images/spotify-logo.jpg" alt="">
+                            <img src="./images/ultra-logo.jpg" alt="">
+                            <img src="./images/groupon-logo.jpg" alt="">
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+
+            <section class="section5">
+
+                <div class="section5-subcontent">
+
+
+                    <h1>Join the millions of users worldwide
+                        trusting PayPal every day</h1><br>
+
+
+                    <button >Sign up for free</button><br><br><br>
+                        <div class="counter d-flex gap-1">
+
+                            <h1>4</h1>
+                            <h1>0</h1>
+                            <h1>0</h1>
+                            <h1>0</h1>
+                            <h1>3</h1>
+                            <h1>1</h1>
+                            <h1>1</h1>
+                            <h1>0</h1>
+                            <h1>4</h1>
+                        </div><br><br>
+                   
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <footer></footer>
+    </div>
+
+
+
+
+
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+
+</html>
